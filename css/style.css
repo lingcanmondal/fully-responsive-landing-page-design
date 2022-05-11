@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    /* font-family: 'Poppins', sans-serif;  */
+    box-sizing: border-box;
+}
+
+.sec1{
+        /* padding: 0px 100px; */
+        height: 500px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/mario-caruso-qtiemd1ofMc-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        position: relative;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+
+}
+.sec1box{
+        text-align: center;
+        padding: 85px;
+}
+.sec1box h1{
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Poppins', sans-serif;
+        color: white;        
+}
+.sec1box p{
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 25px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 255, 42);
+}
+.sec1box a{
+        border: 1px solid wheat;
+        color: white;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+        font-size: 20px;
+        text-transform: capitalize; 
+        display:inline-block;
+        animation: backgroundChange 3s infinite;
+        
+}
+/* END Sec-1 */
+/* started nav-bar */
+
+.collapse ul li a{
+        color: maroon !important;
+}
+
+.collapse ul li a:hover{
+        /* background: rgb(83, 3, 3); */
+        background-color: brown;
+        border-radius: 15px;
+        padding: 10px 20px 10px 20px;
+        color: aquamarine !important;
+        
+}
+/* .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+        align-items: center;
+} */
+/* .nav-bar img{
+        transform: translate(red, 1s 2s);        
+} */
+/* .nav-items ul{
+        list-style: none;
+        display: flex;
+} */
+/* .nav-items ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 0px 20px;
+        text-transform: uppercase;
+} */
+/* .nav-items ul li a:hover{
+        color: aquamarine;
+        background-color: slategrey;
+        padding: 20px;
+        border-radius: 0px 20px 0px 20px;
+} */
+
+/* end nav-bar*/
+
+/* Started sec2 */
+.sec2{
+        padding: 80px 100px 0px 100px;
+        text-align: justify;      
+}
+.sec2 h2{
+        color: goldenrod;
+}
+.sec2 p {
+        font-family: arial;
+    }
+.s2RowTop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* text-transform: capitalize; */        
+}
+.s2Box{
+        flex-basis: 30%;
+        display: flex;        
+}
+.s2icon{
+        margin-right: 30px;
+        margin-top: 5px;
+        
+}
+.s2icon i{
+        font-size: 25px;
+        color: maroon;
+}
+
+.s2Details h2{
+        text-transform: capitalize;
+}
+.s2RowBottom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 35px;
+        /* text-transform: capitalize; */
+}
+/* END Sec-2 */
+
+.s3Row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+.s3Row h1{
+        color: goldenrod;
+}
+.s3colRight{
+        width: 100%;
+}
+.s3colLeft{
+        flex-basis: 47%;
+}
+.s3colLeft a{
+        /* color: goldenrod; */
+}
+.s3colLeft h1{
+        text-align: left;
+}
+.s3colLeft p {
+        font-family: arial;
+    }
+.s3colRight{
+        flex-basis: 47%;
+        flex-wrap: wrap;
+        justify-content: space-between;        
+}
+.sec3 a{
+        border: 1px solid rgb(14, 146, 2);
+        color: rgb(179, 134, 20);
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+        font-size: 20px;
+        text-transform: capitalize;
+        background-color: bisque;
+        margin-top: 20px;
+        display: inline-block;
+}
+.s3colLeft p{
+        line-height: 25px;
+        text-align: justify;
+        padding-bottom: 4px;        
+}
+.s3colLeft a:hover{
+        color: royalblue;
+        background-color: aquamarine;
+}
+.sec3{
+        padding: 80px 100px 80px 100px;
+        text-align: justify;      
+}
+.s3colRight img{
+        width: 100%;
+        max-width: 700px;
+        height: 90%;
+}
+
+.check p{
+        padding-top: 4px;
+}
+
+/* END Sec3 */
+
+/* started sec4 */
+.sec4{
+        padding: 50px 100px;
+        /* padding: 50px 100px 50px 100px; */
+        background-image: linear-gradient(to left, maroon, black);
+        
+}
+.s4Row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;                                       
+}
+.s4Col{
+        flex-basis: 31%;
+        /* text-align: justify; */
+        color: white;
+}
+.s4Col p {
+        font-family: arial;
+    }
+.s4Col i{
+        font-size: 35px;
+        color:yellowgreen;
+}
+.s4Col h3{
+        font-size: 30px;
+        color: yellow;             
+}
+/* END Sec4 */
+
+/* Started contact section */
+.contact{
+        padding: 50px 0px 50px 0px;
+}
+.contact h1{
+        text-align: center;
+        text-transform: capitalize;
+        color: goldenrod;
+}
+.contact form{
+        width: 500px;
+        margin: auto;
+                 
+}
+.contact input{
+        width: 100%;
+        padding: 10px 5px;
+        border: 0;
+        background: lightgray;
+        border-radius: 5px;
+        margin-bottom: 20px; 
+        text-transform: capitalize;       
+}
+.contact textarea{
+        width: 100%;
+        padding: 10px 5px;
+        border: 0;
+        background: lightgray;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        height: 100px;
+        resize: none;
+       
+}
+#submit-button{
+        width: 30%;
+        padding: 10px 0px;
+        border: 0;
+        background: lightgray;
+        border-radius: 5px;
+        color: darkgoldenrod;
+        text-transform: capitalize;
+}
+#submit-button:hover{
+        background-color: aqua;
+        color: red;
+}
+/* end contact section */
+
+/* Started Sec5 */
+.sec5{
+        padding: 80px 100px 0px 100px;
+        border-bottom: 10px solid maroon;
+        margin-bottom: 30px;
+        margin-top: -30px;
+}
+.s5RowTop{
+        text-align: center;
+        text-transform: capitalize;
+}
+.s5RowTop h5 {
+        color: darkgoldenrod;
+    }
+.s5RowTop p{
+        font-family: Arial, Helvetica, sans-serif;
+}
+.s5RowTop h5{
+        font-size: 40px;
+}
+.s5RowBottom{      
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        text-align: center;
+
+}
+.s5col{
+        flex-basis: 31%;
+        background-color: lightgray;
+        border-left: 5px solid red;
+        border-right: 5px solid maroon; 
+      
+}
+.s5col p {
+        font-family: arial;
+    }
+.s5col img{
+        width: 60px;       
+}
+.s5col h6{
+        color: brown;
+        text-transform: uppercase;
+        font-size: 14px;
+}
+.s5col h5{
+        font-size: 20px;
+}
+/* END Sec5 */
+
+/* Started sec6 */
+.sec6{
+        padding: 80px 100px 0px 100px;
+        border-bottom: 10px solid maroon;
+        margin-bottom: 30px;
+}
+.s6RowTop h1{
+        text-align: center;
+        text-transform: capitalize;
+}
+.s6RowTop{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: -65px;
+}
+.s6RowTop p{
+        font-family: Arial, Helvetica, sans-serif;
+}
+.s6RowTop h1 {
+        color: darkgoldenrod;
+    }
+.s6RowBottom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;       
+}
+.logo img{
+        width: 50px; 
+        height: 50px;
+        margin: 0px 20px;            
+}
+/* END Sec6 */
+/* Started Sec7  */
+.sec7{
+        padding: 80px 100px 0px 100px;
+        /* border-bottom: 10px solid maroon; */
+        /* margin-bottom: 30px; */
+        background-color: antiquewhite;
+        margin-top: -30px;
+}
+.s7RowTop{
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: -30px;
+}
+.s7RowTop h1{
+        padding-bottom: 25px;
+        color: darkgoldenrod;
+}
+.s7RowBottom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-size: 7px;
+        padding-bottom: 50px;
+}
+.s7RowBottom h1{
+        text-transform: capitalize;
+
+}
+.s7col{
+        flex-basis: 20%;
+        line-height: 25px;
+        
+}
+.s7col i{
+        font-size: 25px;
+        color:maroon;
+}
+.s7col p{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif
+}
+/* END Sec7 */
+
+/* Started Sec8 */
+.sec8{
+        padding: 10px;
+        /* text-transform:lowercase; */
+        text-align: center;
+        background-color: maroon black;
+        background-image: linear-gradient(to left, maroon, black);
+        color: white;
+}
+.sec8 p {
+        font-family: arial;
+    }
+.sec8 i{
+        color: red;
+}
+/* END Sec8 */
+
+/* paralax started */
+.paralax{
+        height: 300px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/mario-caruso-qtiemd1ofMc-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-attachment: fixed;
+
+}
+/* end paralax */
+
+
+@keyframes backgroundChange{
+        0%{
+                background-color: red;
+        }
+
+        20%{
+                background-color: goldenrod;
+        }
+        40%{
+                background-color: rgb(32, 218, 57);
+        }
+        60%{
+                background-color: rgb(35, 32, 218);
+        }
+        80%{
+                background-color: rgb(218, 60, 32);
+        }
+        100%{
+                background-color: rgb(218, 32, 172);
+        }
+}
